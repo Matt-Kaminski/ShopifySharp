@@ -72,7 +72,7 @@ namespace ShopifySharp
         public string ReturnUrl { get; set; }
 
         /// <summary>
-        ///  Known values are 'pending', 'accepted', 'active', 'cancelled', 'declined' and 'expired'.
+        ///  Known values are 'pending', 'accepted', 'active', 'cancelled', 'declined', 'expired' and 'frozen'.
         /// </summary>
         [JsonProperty("status")]
         public string Status { get; set; }
